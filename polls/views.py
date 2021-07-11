@@ -1,8 +1,6 @@
 from django.shortcuts import render, get_object_or_404
 from django.http import JsonResponse
 
-from polls.models import Poll
-
 
 # Create your views here.
 def polls_list(request):
